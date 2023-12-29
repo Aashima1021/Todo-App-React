@@ -1,0 +1,55 @@
+.add-todo-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.todo-list {
+  font-size: 20px;
+  color: brown;
+  margin: 1%;
+}
+
+.count-btns {
+  align-items: flex-end;
+  justify-content: end;
+  margin: 2%;
+}
+
+@media (max-width: 1300px) {
+  .checkbox {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    font-size: 11px;
+  }
+  .btn,
+  .form-control {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 560px) {
+  body {
+    font-size: 10px;
+  }
+  button.btn {
+    padding: 4px;
+    margin: 0;
+  }
+  .assign-time,
+  .completed-time {
+    display: none;
+  }
+}
+
+@media (max-width: 404px) {
+  button.btn,
+  .form-control {
+    font-size: 7px;
+    margin: 0 !important;
+  }
+}
